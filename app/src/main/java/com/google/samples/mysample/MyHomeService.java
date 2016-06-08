@@ -7,7 +7,7 @@ import android.view.InputEvent;
 /**
  * Implement your device logic here.
  */
-public class MyHomeService extends HomeService{
+public class MyHomeService extends HomeService {
     private static final String TAG = "MyHomeService";
 
     @Override
@@ -20,9 +20,4 @@ public class MyHomeService extends HomeService{
         Log.d(TAG, "Input event received: " + event);
     }
 
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.d(TAG, "onDestroy");
-    }
 }
