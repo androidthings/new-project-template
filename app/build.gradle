@@ -31,5 +31,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.brillo:brillo-sdk:0.2'
 }
