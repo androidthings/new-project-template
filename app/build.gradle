@@ -5,8 +5,8 @@ android {
     buildToolsVersion '24.0.2'
 
     defaultConfig {
-        applicationId "com.google.samples.mysample"
-        minSdkVersion 21
+        applicationId "com.google.samples.iot"
+        minSdkVersion 24
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -31,5 +31,5 @@ android {
 }
 
 dependencies {
-    compile 'com.google.brillo:brillo-sdk:0.3'
+    compile 'com.google.brillo:iot-sdk:0.1'
 }
