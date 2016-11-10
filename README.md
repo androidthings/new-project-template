@@ -1,20 +1,30 @@
-Brillo empty sample template
+Android Things empty sample template
 =====================================
 
-Use this empty project as a template for your Brillo 2 project.
+Use this empty project as a template for your Android Things project.
 
 
 Pre-requisites
 --------------
 
-- Intel Edison
-- Brillo 2.0
-- ...
+- Android Things compatible board
+- Android Things SDK, currently offered through a private Maven repo. See
+  instructions at [go/brillo-gradle-setup]
+- Android Studio 2.2+
+- Java 8
 
-Schematics
-----------
 
-![Sample schematics](sample_schematics.png)
+Build and install
+=================
+
+On Android Studio, click on the "Run" button.
+
+If you prefer to run on the command line, type
+
+```bash
+./gradlew installDebug
+adb shell am start com.google.samples.iot/.MainActivity
+```
 
 License
 -------
