@@ -1,4 +1,4 @@
-Android Things empty sample template
+Android Things empty project template
 =====================================
 
 Use this empty project as a template for your Android Things project.
@@ -8,10 +8,7 @@ Pre-requisites
 --------------
 
 - Android Things compatible board
-- Android Things SDK, currently offered through a private Maven repo. See
-  instructions at [go/brillo-gradle-setup]
 - Android Studio 2.2+
-- Java 8
 
 
 Build and install
@@ -23,7 +20,7 @@ If you prefer to run on the command line, type
 
 ```bash
 ./gradlew installDebug
-adb shell am start com.google.samples.iot/.MainActivity
+adb shell am start com.example.androidthings.myproject/.MainActivity
 ```
 
 License

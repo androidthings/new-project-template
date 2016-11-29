@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.iot;
+package com.example.androidthings.myproject;
 
 import android.app.Activity;
 import android.os.Bundle;
