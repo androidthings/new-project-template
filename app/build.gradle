@@ -18,7 +18,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '25.0.0'
+    buildToolsVersion '24.0.3'
 
     defaultConfig {
         applicationId "com.example.androidthings.myproject"
@@ -36,5 +36,5 @@ android {
 }
 
 dependencies {
-    provided 'com.android.things:androidthings:0.3-preview'
+    provided 'com.google.android.things:androidthings:0.1-preview'
 }
