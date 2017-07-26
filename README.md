@@ -3,6 +3,7 @@ Android Things empty project template
 
 Use this empty project as a template for your Android Things project.
 
+NOTE: this is very similar to the code created by the Android Things Empty Activity wizard on Android Studio 3+. You can use either to bootstrap your Android Things project.
 
 Pre-requisites
 --------------
