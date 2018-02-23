@@ -25,12 +25,12 @@ import android.util.Log;
  * in this class.
  *
  * Android Things peripheral APIs are accessible through the class
- * PeripheralManagerService. For example, the snippet below will open a GPIO pin and
+ * PeripheralManager. For example, the snippet below will open a GPIO pin and
  * set it to HIGH:
  *
  * <pre>{@code
- * PeripheralManagerService service = new PeripheralManagerService();
- * mLedGpio = service.openGpio("BCM6");
+ * PeripheralManager manager = PeripheralManager.getInstance();
+ * mLedGpio = manager.openGpio("BCM6");
  * mLedGpio.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
  * mLedGpio.setValue(true);
  * }</pre>
