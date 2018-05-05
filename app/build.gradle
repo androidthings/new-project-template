@@ -35,5 +35,5 @@ android {
 }
 
 dependencies {
-    compileOnly 'com.google.android.things:androidthings:0.8-devpreview'
+    compileOnly 'com.google.android.things:androidthings:1.0'
 }
